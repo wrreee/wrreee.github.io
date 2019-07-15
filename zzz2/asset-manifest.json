@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.363468ec.chunk.css",
-  "main.js": "/static/js/main.61e78caf.chunk.js",
-  "main.js.map": "/static/js/main.61e78caf.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.42ac5946.js",
-  "runtime~main.js.map": "/static/js/runtime~main.42ac5946.js.map",
-  "static/js/2.6821cdca.chunk.js": "/static/js/2.6821cdca.chunk.js",
-  "static/js/2.6821cdca.chunk.js.map": "/static/js/2.6821cdca.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.ffd1ec2ecf3d2e48445f170d550808ee.js": "/precache-manifest.ffd1ec2ecf3d2e48445f170d550808ee.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.363468ec.chunk.css.map": "/static/css/main.363468ec.chunk.css.map"
+  "main.css": "/zzz2/static/css/main.363468ec.chunk.css",
+  "main.js": "/zzz2/static/js/main.cb967400.chunk.js",
+  "main.js.map": "/zzz2/static/js/main.cb967400.chunk.js.map",
+  "runtime~main.js": "/zzz2/static/js/runtime~main.f3b498f3.js",
+  "runtime~main.js.map": "/zzz2/static/js/runtime~main.f3b498f3.js.map",
+  "static/js/2.6821cdca.chunk.js": "/zzz2/static/js/2.6821cdca.chunk.js",
+  "static/js/2.6821cdca.chunk.js.map": "/zzz2/static/js/2.6821cdca.chunk.js.map",
+  "index.html": "/zzz2/index.html",
+  "precache-manifest.efa0e403d023b50a9621ce6d10e1c62c.js": "/zzz2/precache-manifest.efa0e403d023b50a9621ce6d10e1c62c.js",
+  "service-worker.js": "/zzz2/service-worker.js",
+  "static/css/main.363468ec.chunk.css.map": "/zzz2/static/css/main.363468ec.chunk.css.map"
 }
