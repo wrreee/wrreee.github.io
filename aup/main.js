@@ -572,7 +572,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".synth1Container {\n    display: flex;\n    flex-direction: column;\n}\n\n.synth1Container button {\n    width: 48px;\n    text-align: left;\n}\n\n.synth1Container .oscillators {\n    display: flex;\n    align-items: flex-start;\n    margin-top: 2px;\n}\n\n.synth1Container .addOscButtonContainer {\n    margin: 1px;\n}\n\n.synth1Container .addOscButtonContainer .addOscButton {\n\n}\n\n.oscItem {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    margin: 1px;\n    background: radial-gradient(#ffa6a6, transparent);\n}\n\n.oscItem .oscStartButton {\n\n}\n\n.oscItem .oscStopButton {\n\n}\n\n.oscItem .oscAddParamButton {\n\n}\n\n.oscParamForm {\n    display: flex;\n}\n\n.oscParamForm input {\n    width: 74px;\n}\n", "",{"version":3,"sources":["webpack://./app/root/Synth1/Synth1.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,eAAe;AACnB;;AAEA;IACI,WAAW;AACf;;AAEA;;AAEA;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,WAAW;IACX,iDAAiD;AACrD;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,WAAW;AACf","sourcesContent":[".synth1Container {\n    display: flex;\n    flex-direction: column;\n}\n\n.synth1Container button {\n    width: 48px;\n    text-align: left;\n}\n\n.synth1Container .oscillators {\n    display: flex;\n    align-items: flex-start;\n    margin-top: 2px;\n}\n\n.synth1Container .addOscButtonContainer {\n    margin: 1px;\n}\n\n.synth1Container .addOscButtonContainer .addOscButton {\n\n}\n\n.oscItem {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    margin: 1px;\n    background: radial-gradient(#ffa6a6, transparent);\n}\n\n.oscItem .oscStartButton {\n\n}\n\n.oscItem .oscStopButton {\n\n}\n\n.oscItem .oscAddParamButton {\n\n}\n\n.oscParamForm {\n    display: flex;\n}\n\n.oscParamForm input {\n    width: 74px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".synth1Container {\n    display: flex;\n    flex-direction: column;\n}\n\n.synth1Container button {\n    width: 48px;\n    text-align: left;\n}\n\n.synth1Container .oscillators {\n    display: flex;\n    align-items: flex-start;\n    margin-top: 2px;\n}\n\n.synth1Container .addOscButtonContainer {\n    margin: 1px;\n}\n\n.synth1Container .addOscButtonContainer .addOscButton {\n\n}\n\n.oscItem {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    margin: 1px;\n    background: radial-gradient(#ffa6a6, transparent);\n}\n\n.oscItem .oscStartButton {\n\n}\n\n.oscItem .oscStopButton {\n\n}\n\n.oscItem .oscAddParamButton {\n\n}\n\n.oscParamForm {\n    display: flex;\n}\n\n.oscParamForm input {\n    width: 86px;\n    box-sizing: border-box;\n}\n\n.oscParamForm select {\n    width: 86px;\n    box-sizing: border-box;\n}\n", "",{"version":3,"sources":["webpack://./app/root/Synth1/Synth1.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,eAAe;AACnB;;AAEA;IACI,WAAW;AACf;;AAEA;;AAEA;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,WAAW;IACX,iDAAiD;AACrD;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,WAAW;IACX,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,sBAAsB;AAC1B","sourcesContent":[".synth1Container {\n    display: flex;\n    flex-direction: column;\n}\n\n.synth1Container button {\n    width: 48px;\n    text-align: left;\n}\n\n.synth1Container .oscillators {\n    display: flex;\n    align-items: flex-start;\n    margin-top: 2px;\n}\n\n.synth1Container .addOscButtonContainer {\n    margin: 1px;\n}\n\n.synth1Container .addOscButtonContainer .addOscButton {\n\n}\n\n.oscItem {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    margin: 1px;\n    background: radial-gradient(#ffa6a6, transparent);\n}\n\n.oscItem .oscStartButton {\n\n}\n\n.oscItem .oscStopButton {\n\n}\n\n.oscItem .oscAddParamButton {\n\n}\n\n.oscParamForm {\n    display: flex;\n}\n\n.oscParamForm input {\n    width: 86px;\n    box-sizing: border-box;\n}\n\n.oscParamForm select {\n    width: 86px;\n    box-sizing: border-box;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -76509,6 +76509,7 @@ var KeyTrigger = /** @class */ (function (_super) {
         _this.handlePress = function (e) {
             var _a;
             var _b = _this.props, keyValue = _b.keyValue, codeValue = _b.codeValue, withInputs = _b.withInputs;
+            // console.log(e.key, keyValue);
             if (keyValue && e.key !== keyValue) {
                 return;
             }
@@ -76648,8 +76649,8 @@ var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from
 
 
 
-var Osc = function (_a) {
-    var index = _a.index;
+var Osc = (0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (_a, ref) {
+    var index = _a.index, onConnectRequest = _a.onConnectRequest;
     var osc = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)();
     var _b = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false), started = _b[0], setStarted = _b[1];
     var _c = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]), params = _c[0], setParams = _c[1];
@@ -76673,6 +76674,15 @@ var Osc = function (_a) {
         return function () {
         };
     }, [osc]);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useImperativeHandle)(ref, function () { return ({
+        connect: function (signal) {
+            var _a;
+            if (osc.current) {
+                console.log('connect');
+                signal.connect((_a = osc.current) === null || _a === void 0 ? void 0 : _a.frequency);
+            }
+        }
+    }); }, [osc]);
     var handleStart = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function () { return __awaiter(void 0, void 0, void 0, function () {
         return __generator(this, function (_a) {
             if (osc.current) {
@@ -76701,18 +76711,24 @@ var Osc = function (_a) {
         });
     }); }, [osc, started]);
     var handleApply = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_name, _value) { return __awaiter(void 0, void 0, void 0, function () {
-        var name_1, value;
+        var name_1, value, oscNumber;
         return __generator(this, function (_a) {
             if (osc.current) {
                 try {
                     name_1 = _name;
                     value = _value;
-                    if (['frequency'].includes(name_1)) {
-                        if (osc.current[name_1])
-                            osc.current[name_1].value = value;
+                    if (_value[0] === 'o') {
+                        oscNumber = +_value.slice(1);
+                        onConnectRequest(oscNumber, osc.current[name_1]);
                     }
                     else {
-                        osc.current[name_1] = value;
+                        if (['frequency'].includes(name_1)) {
+                            if (osc.current[name_1])
+                                osc.current[name_1].value = value;
+                        }
+                        else {
+                            osc.current[name_1] = value;
+                        }
                     }
                 }
                 catch (e) {
@@ -76720,18 +76736,18 @@ var Osc = function (_a) {
             }
             return [2 /*return*/];
         });
-    }); }, [osc]);
+    }); }, [osc, onConnectRequest]);
     var handleAddParam = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function () {
         setParams(__spreadArray(__spreadArray([], params), [{}]));
     }, [params]);
     var key = index === 9 ? '0' : (index + 1).toString();
     return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: 'oscItem' },
-        !started ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { className: 'oscStartButton', onClick: handleStart },
+        !started ? (react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { title: 'unmute', className: 'oscStartButton', onClick: handleStart },
             "\u25AF",
             key ? react__WEBPACK_IMPORTED_MODULE_0__.createElement("small", null,
                 "(",
                 key,
-                ")") : '')) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { className: 'oscStopButton', onClick: handleStop },
+                ")") : '')) : (react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { title: 'mute', className: 'oscStopButton', onClick: handleStop },
             "\u25AE",
             key ? react__WEBPACK_IMPORTED_MODULE_0__.createElement("small", null,
                 "(",
@@ -76741,8 +76757,8 @@ var Osc = function (_a) {
         params.map(function (_, _index) {
             return react__WEBPACK_IMPORTED_MODULE_0__.createElement(_OscParamForm__WEBPACK_IMPORTED_MODULE_2__.OscParamForm, { parentIndex: index, index: _index, key: _index, onApply: handleApply });
         }),
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { className: 'oscAddParamButton', onClick: handleAddParam }, "+")));
-};
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { title: 'add parameter control', className: 'oscAddParamButton', onClick: handleAddParam }, "+")));
+});
 
 
 /***/ }),
@@ -76776,29 +76792,48 @@ var KEY_CODE_MAP = [
     ['p', ';', '/'],
 ];
 var OscParamForm = function (props) {
-    var _a;
+    var _a, _b, _c, _d;
     var onApply = props.onApply, index = props.index, parentIndex = props.parentIndex;
+    var typeInput = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
     var valueInput = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
     var paramNameInput = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+    var _e = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('frequency'), param = _e[0], setParam = _e[1];
     var handleSubmit = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(function (e) {
-        var _a, _b;
+        var _a, _b, _c, _d;
         e.preventDefault();
-        console.log('submit');
-        var name = (_a = paramNameInput.current) === null || _a === void 0 ? void 0 : _a.value;
-        var value = (_b = valueInput.current) === null || _b === void 0 ? void 0 : _b.value;
-        onApply(name, value);
-    }, [paramNameInput, valueInput, onApply]);
-    var key = (_a = KEY_CODE_MAP[parentIndex]) === null || _a === void 0 ? void 0 : _a[index];
+        if (param === 'type') {
+            var name_1 = (_a = paramNameInput.current) === null || _a === void 0 ? void 0 : _a.value;
+            var value = (_b = typeInput.current) === null || _b === void 0 ? void 0 : _b.value;
+            onApply(name_1, value);
+        }
+        else {
+            var name_2 = (_c = paramNameInput.current) === null || _c === void 0 ? void 0 : _c.value;
+            var value = (_d = valueInput.current) === null || _d === void 0 ? void 0 : _d.value;
+            onApply(name_2, value);
+        }
+    }, [paramNameInput, valueInput, onApply, param]);
+    var code = (_a = KEY_CODE_MAP[parentIndex]) === null || _a === void 0 ? void 0 : _a[index % 3];
+    var key = index < 3 ? (_b = KEY_CODE_MAP[parentIndex]) === null || _b === void 0 ? void 0 : _b[index] : (_d = (_c = KEY_CODE_MAP[parentIndex]) === null || _c === void 0 ? void 0 : _c[index - 3]) === null || _d === void 0 ? void 0 : _d.toUpperCase();
+    var handleParamChange = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(function (e) {
+        setParam(e.target.value);
+    }, []);
     return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", { onSubmit: handleSubmit, className: 'oscParamForm' },
-        index <= 2 && (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_KeyboardJS_KeyboardJSTrigger__WEBPACK_IMPORTED_MODULE_1__.KeyTrigger, { codeValue: key, onPress: handleSubmit })),
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { type: 'submit' },
+        index <= 5 && (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_KeyboardJS_KeyboardJSTrigger__WEBPACK_IMPORTED_MODULE_1__.KeyTrigger, { codeValue: code, keyValue: key, onPress: handleSubmit })),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { type: 'submit', title: 'apply' },
             "_",
             key ? react__WEBPACK_IMPORTED_MODULE_0__.createElement("small", null,
                 "(",
                 key,
                 ")") : ''),
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", { ref: paramNameInput, placeholder: 'parameter' }),
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", { ref: valueInput, placeholder: 'value' })));
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("select", { title: 'parameter name', ref: paramNameInput, value: param, onChange: handleParamChange },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'frequency' }, "frequency"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'type' }, "type")),
+        param === 'type' && (react__WEBPACK_IMPORTED_MODULE_0__.createElement("select", { ref: typeInput, title: 'wave type' },
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'square' }, "square"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'sine' }, "sine"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'triangle' }, "triangle"),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'sawtooth' }, "sawtooth"))),
+        param === 'frequency' && (react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", { ref: valueInput, title: 'value', placeholder: 'value' }))));
 };
 
 
@@ -76829,18 +76864,23 @@ var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from
 
 var Synth1 = function (props) {
     var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]), oscs = _a[0], setOscs = _a[1];
+    var oscsRefs = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)([]);
     var handleAddOsc = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(function () {
+        oscsRefs.current.push((0,react__WEBPACK_IMPORTED_MODULE_0__.createRef)());
         setOscs(__spreadArray(__spreadArray([], oscs), [{}]));
     }, [oscs]);
+    var handleConnect = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (number, signal) {
+        var _a, _b;
+        console.log(oscsRefs.current);
+        (_b = (_a = oscsRefs.current[number]) === null || _a === void 0 ? void 0 : _a.current) === null || _b === void 0 ? void 0 : _b.connect(signal);
+    }, [oscsRefs]);
     return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: 'synth1Container' },
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,
-            react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", { href: 'https://tonejs.github.io/docs/r13/Oscillator' }, "https://tonejs.github.io/docs/r13/Oscillator")),
         react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: 'oscillators' },
             oscs.map(function (_, index) {
-                return react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Osc__WEBPACK_IMPORTED_MODULE_1__.Osc, { key: index, index: index });
+                return react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Osc__WEBPACK_IMPORTED_MODULE_1__.Osc, { ref: oscsRefs.current[index], key: index, index: index, onConnectRequest: handleConnect });
             }),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: "addOscButtonContainer" },
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { className: "addOscButton", onClick: handleAddOsc }, "+")))));
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { title: 'add oscillator', className: "addOscButton", onClick: handleAddOsc }, "+")))));
 };
 
 
