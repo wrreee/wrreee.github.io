@@ -1473,7 +1473,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".styles__colourElement {\n    position: absolute;\n    /*pointer-events: none;*/\n    /*box-sizing: border-box; */\n}\n\n\n.styles__colourElementOrigin {\n    position: absolute;\n    user-select: none;\n    border: 1px solid transparent\n}\n\n.styles__colourElementOrigin:hover {\n    border: 1px dashed black;\n    /*z-index: 1000;*/\n}\n.styles__colourElementOrigin:hover > div {\n    /*z-index: 1000;*/\n}\n\n.styles__colourElementOrigin .styles__colourElementControls {\n    visibility: hidden;\n\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n\n.styles__colourElementOrigin:hover .styles__colourElementControls {\n    visibility: visible;\n}\n\n.styles__colourElementOrigin .styles__colourElementControls .styles__sizeHandler {\n    position: absolute;\n    right: 0;\n    bottom: 0;\n}\n\n.styles__colourElementControlHandler:hover, .styles__colourElementControlHandler.styles__divDragHandlerIsActive {\n    color: navajowhite;\n}\n\n.styles__colourElementControlHandler {\n    white-space: nowrap;\n}\n\n.styles__colourElementControlHandlerPosition {\n    cursor: pointer;\n    white-space: nowrap;\n}\n", "",{"version":3,"sources":["webpack://./app/Main/ColoursPanel/ColourElement/styles.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,wBAAwB;IACxB,2BAA2B;AAC/B;;;AAGA;IACI,kBAAkB;IAClB,iBAAiB;IACjB;AACJ;;AAEA;IACI,wBAAwB;IACxB,iBAAiB;AACrB;AACA;IACI,iBAAiB;AACrB;;AAEA;IACI,kBAAkB;;IAElB,kBAAkB;IAClB,MAAM;IACN,OAAO;AACX;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,QAAQ;IACR,SAAS;AACb;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,mBAAmB;AACvB","sourcesContent":[".colourElement {\n    position: absolute;\n    /*pointer-events: none;*/\n    /*box-sizing: border-box; */\n}\n\n\n.colourElementOrigin {\n    position: absolute;\n    user-select: none;\n    border: 1px solid transparent\n}\n\n.colourElementOrigin:hover {\n    border: 1px dashed black;\n    /*z-index: 1000;*/\n}\n.colourElementOrigin:hover > div {\n    /*z-index: 1000;*/\n}\n\n.colourElementOrigin .colourElementControls {\n    visibility: hidden;\n\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n\n.colourElementOrigin:hover .colourElementControls {\n    visibility: visible;\n}\n\n.colourElementOrigin .colourElementControls .sizeHandler {\n    position: absolute;\n    right: 0;\n    bottom: 0;\n}\n\n.colourElementControlHandler:hover, .colourElementControlHandler.divDragHandlerIsActive {\n    color: navajowhite;\n}\n\n.colourElementControlHandler {\n    white-space: nowrap;\n}\n\n.colourElementControlHandlerPosition {\n    cursor: pointer;\n    white-space: nowrap;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".styles__colourElement {\n    position: absolute;\n    /*pointer-events: none;*/\n    /*box-sizing: border-box; */\n}\n\n\n.styles__colourElementOrigin {\n    position: absolute;\n    user-select: none;\n    border: 1px solid transparent\n}\n\n.styles__colourElementOrigin:hover {\n    border: 1px dashed black;\n    /*z-index: 1000;*/\n}\n.styles__colourElementOrigin:hover > div {\n    /*z-index: 1000;*/\n}\n\n.styles__colourElementOrigin .styles__colourElementControls {\n    visibility: hidden;\n\n    max-height: 300px;\n    overflow-y: auto;\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n\n.styles__colourElementOrigin:hover .styles__colourElementControls {\n    visibility: visible;\n}\n\n.styles__colourElementOrigin .styles__colourElementControls .styles__sizeHandler {\n    position: absolute;\n    right: 0;\n    bottom: 0;\n}\n\n.styles__colourElementControlHandler:hover, .styles__colourElementControlHandler.styles__divDragHandlerIsActive {\n    color: navajowhite;\n}\n\n.styles__colourElementControlHandler {\n    white-space: nowrap;\n}\n\n.styles__colourElementControlHandlerPosition {\n    cursor: pointer;\n    white-space: nowrap;\n}\n", "",{"version":3,"sources":["webpack://./app/Main/ColoursPanel/ColourElement/styles.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,wBAAwB;IACxB,2BAA2B;AAC/B;;;AAGA;IACI,kBAAkB;IAClB,iBAAiB;IACjB;AACJ;;AAEA;IACI,wBAAwB;IACxB,iBAAiB;AACrB;AACA;IACI,iBAAiB;AACrB;;AAEA;IACI,kBAAkB;;IAElB,iBAAiB;IACjB,gBAAgB;IAChB,kBAAkB;IAClB,MAAM;IACN,OAAO;AACX;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,QAAQ;IACR,SAAS;AACb;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,mBAAmB;AACvB","sourcesContent":[".colourElement {\n    position: absolute;\n    /*pointer-events: none;*/\n    /*box-sizing: border-box; */\n}\n\n\n.colourElementOrigin {\n    position: absolute;\n    user-select: none;\n    border: 1px solid transparent\n}\n\n.colourElementOrigin:hover {\n    border: 1px dashed black;\n    /*z-index: 1000;*/\n}\n.colourElementOrigin:hover > div {\n    /*z-index: 1000;*/\n}\n\n.colourElementOrigin .colourElementControls {\n    visibility: hidden;\n\n    max-height: 300px;\n    overflow-y: auto;\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n\n.colourElementOrigin:hover .colourElementControls {\n    visibility: visible;\n}\n\n.colourElementOrigin .colourElementControls .sizeHandler {\n    position: absolute;\n    right: 0;\n    bottom: 0;\n}\n\n.colourElementControlHandler:hover, .colourElementControlHandler.divDragHandlerIsActive {\n    color: navajowhite;\n}\n\n.colourElementControlHandler {\n    white-space: nowrap;\n}\n\n.colourElementControlHandlerPosition {\n    cursor: pointer;\n    white-space: nowrap;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"colourElement": "styles__colourElement",
@@ -31848,6 +31848,7 @@ module.exports = function (list, options) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ParameterTypes": () => (/* binding */ ParameterTypes),
 /* harmony export */   "ColourElement": () => (/* binding */ ColourElement)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -31864,6 +31865,7 @@ var __assign = (undefined && undefined.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
+var _a;
 
 
 
@@ -31871,9 +31873,263 @@ var __assign = (undefined && undefined.__assign) || function () {
 var stopPropagation = function (e) {
     e.stopPropagation();
 };
+var ParameterTypes;
+(function (ParameterTypes) {
+    ParameterTypes["TextInput"] = "TextInput";
+    ParameterTypes["NumberInput"] = "NumberInput";
+    ParameterTypes["XYDrag"] = "XYDrag";
+    ParameterTypes["XYDragPointerLock"] = "XYDragPointerLock";
+    ParameterTypes["XDrag"] = "XDrag";
+    ParameterTypes["YDrag"] = "yDrag";
+    ParameterTypes["XDragPointerLock"] = "XDragPointerLock";
+    ParameterTypes["YDragPointerLock"] = "YDragPointerLock";
+    ParameterTypes["SelectArray"] = "SelectArray";
+})(ParameterTypes || (ParameterTypes = {}));
+var parameterComponentsByType = (_a = {},
+    _a[ParameterTypes.TextInput] = function (_a) {
+        var name = _a.name, value = _a.value, onChange = _a.onChange, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
+            onChange(name, value);
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, __assign({ changeOnEnter: true, resetOnBlur: true, value: value, onChange: handleChange, title: props.placeholder }, props)));
+    },
+    _a[ParameterTypes.NumberInput] = function (_a) {
+        var name = _a.name, value = _a.value, onChange = _a.onChange, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
+            onChange(name, value);
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterNumberInput, __assign({ changeOnEnter: true, resetOnBlur: true, value: value || undefined, onChange: handleChange, title: props.placeholder }, props)));
+    },
+    _a[ParameterTypes.XYDrag] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
+            var x = _a.x, y = _a.y;
+            onChange(name, [savedValue[0] + x, savedValue[1] + y]);
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragHandler, { saveValue: value, onDrag: handleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler + " " + _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandlerPosition },
+            (props === null || props === void 0 ? void 0 : props.text) || name,
+            " ",
+            value[0],
+            ",",
+            value[1]));
+    },
+    _a[ParameterTypes.XYDragPointerLock] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
+            var x = _a.x, y = _a.y;
+            onChange(name, [savedValue[0] + x, savedValue[1] + y]);
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: value, onDrag: handleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler + " " + _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandlerPosition },
+            (props === null || props === void 0 ? void 0 : props.text) || name,
+            " ",
+            value[0],
+            ",",
+            value[1]));
+    },
+    _a[ParameterTypes.XDrag] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
+            var x = _a.x, y = _a.y;
+            onChange(name, Math.max(0, savedValue + x));
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragHandler, { saveValue: value, onDrag: handleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
+            (props === null || props === void 0 ? void 0 : props.text) || name,
+            " ",
+            value));
+    },
+    _a[ParameterTypes.YDrag] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
+            var x = _a.x, y = _a.y;
+            onChange(name, Math.max(0, savedValue - y));
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragHandler, { saveValue: value, onDrag: handleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
+            (props === null || props === void 0 ? void 0 : props.text) || name,
+            " ",
+            value));
+    },
+    _a[ParameterTypes.XDragPointerLock] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
+            var x = _a.x, y = _a.y;
+            onChange(name, Math.max(0, savedValue + x));
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: value, onDrag: handleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
+            (props === null || props === void 0 ? void 0 : props.text) || name,
+            " ",
+            value));
+    },
+    _a[ParameterTypes.YDragPointerLock] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
+            var x = _a.x, y = _a.y;
+            onChange(name, Math.max(0, savedValue - y));
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: value, onDrag: handleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
+            (props === null || props === void 0 ? void 0 : props.text) || name,
+            " ",
+            value));
+    },
+    _a[ParameterTypes.SelectArray] = function (_a) {
+        var value = _a.value, onChange = _a.onChange, name = _a.name, props = _a.props;
+        var handleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (e) {
+            onChange(name, e.target.value);
+        }, [onChange]);
+        return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("select", { value: value, onChange: handleChange, title: props.title }, props.options.map(function (option) {
+            return react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: option }, option);
+        })));
+    },
+    _a);
+var parametersConfig = [
+    {
+        name: 'colour',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'colour' },
+    }, {
+        name: 'position',
+        type: ParameterTypes.XYDrag,
+    }, {
+        name: 'width',
+        type: ParameterTypes.YDragPointerLock,
+    }, {
+        name: 'height',
+        type: ParameterTypes.YDragPointerLock,
+    }, {
+        name: 'angle',
+        type: ParameterTypes.YDragPointerLock,
+    }, {
+        name: 'borderWidth',
+        type: ParameterTypes.YDragPointerLock,
+        props: { text: 'border width' },
+    }, {
+        name: 'borderRadius',
+        type: ParameterTypes.YDragPointerLock,
+        props: { text: 'border radius' },
+    }, {
+        name: 'borderStyle',
+        type: ParameterTypes.SelectArray,
+        props: {
+            options: ['solid', 'dashed', 'dotted', 'double', 'hidden'],
+            title: 'border style'
+        }
+    }, {
+        name: 'borderColor',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'border colour' },
+    }, {
+        name: 'zIndex',
+        type: ParameterTypes.NumberInput,
+        props: { placeholder: 'z-index' },
+    }, {
+        name: 'blendMode',
+        type: ParameterTypes.SelectArray,
+        props: {
+            options: [
+                'normal', 'multiply', 'screen', 'overlay', 'darken', 'lighten',
+                'color-dodge', 'color-burn', 'hard-light', 'soft-light', 'difference',
+                'exclusion', 'hue', 'saturation', 'color', 'luminosity',
+            ],
+            title: 'blend mode'
+        }
+    }, {
+        name: 'text',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'text' },
+    },
+    {
+        name: 'fontSize',
+        type: ParameterTypes.YDragPointerLock,
+        props: { text: 'font size' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'textPosition',
+        type: ParameterTypes.XYDragPointerLock,
+        props: { text: 'text position' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'font',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'font family' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'fontStyle',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'font style' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'fontWeight',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'font weight' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'textShadowXYOffset',
+        type: ParameterTypes.XYDragPointerLock,
+        props: { text: 'text shadow offset' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'textShadowBlur',
+        type: ParameterTypes.YDragPointerLock,
+        props: { text: 'text shadow blur' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    }, {
+        name: 'textShadowColor',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'text shadow color' },
+        visibility: function (_a) {
+            var text = _a.text;
+            return !!text;
+        },
+    },
+    {
+        name: 'shadowXYOffset',
+        type: ParameterTypes.XYDragPointerLock,
+        props: { text: 'shadow offset' },
+    }, {
+        name: 'shadowSpread',
+        type: ParameterTypes.YDragPointerLock,
+        props: { text: 'shadow spread' },
+    }, {
+        name: 'shadowBlur',
+        type: ParameterTypes.YDragPointerLock,
+        props: { text: 'shadow blur' },
+    }, {
+        name: 'shadowColor',
+        type: ParameterTypes.TextInput,
+        props: { placeholder: 'shadow color' },
+    },
+];
 var ColourElement = (function (props) {
     var onRemove = props.onRemove, onChange = props.onChange, state = props.state, index = props.index;
     var containerRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+    var originStyle = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(function () { return ({
+        width: state.width + state.borderWidth * 2,
+        height: state.height + state.borderWidth * 2,
+        left: state.position[0],
+        top: state.position[1],
+        zIndex: state.zIndex,
+        mixBlendMode: state.blendMode,
+    }); }, [state]);
     var style = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(function () { return ({
         background: state.colour,
         width: state.width,
@@ -31885,142 +32141,38 @@ var ColourElement = (function (props) {
         borderRadius: state.borderRadius,
         borderColor: state.borderColor,
         borderStyle: state.borderStyle,
-        zIndex: state.zIndex,
-        mixBlendMode: state.blendMode,
+        boxShadow: state.shadowXYOffset[0] + "px " + state.shadowXYOffset[1] + "px " + state.shadowBlur + "px " + state.shadowSpread + "px " + state.shadowColor
+    }); }, [state]);
+    var textStyle = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(function () { return ({
         fontSize: state.fontSize,
         fontFamily: state.font,
         fontStyle: state.fontStyle,
         fontWeight: state.fontWeight,
         color: state.textColour,
+        position: 'absolute',
+        left: state.textPosition[0],
+        top: state.textPosition[1],
+        textShadow: state.textShadowXYOffset[0] + "px " + state.textShadowXYOffset[1] + "px " + state.textShadowBlur + "px " + state.textShadowColor
     }); }, [state]);
-    var originStyle = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(function () { return ({
-        width: state.width + state.borderWidth * 2,
-        height: state.height + state.borderWidth * 2,
-        left: state.position[0],
-        top: state.position[1],
-        zIndex: state.zIndex,
-    }); }, [state.width, state.height, state.position, state.borderWidth, state.zIndex]);
     var handleParameterChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (paramName, value) {
         var _a;
         onChange(index, __assign(__assign({}, state), (_a = {}, _a[paramName] = value, _a)));
     }, [onChange, state, index]);
-    var handleChangeColour = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('colour', value);
-    }, [handleParameterChange]);
-    var handlePositionChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('position', [savedValue[0] + x, savedValue[1] + y]);
-    }, [handleParameterChange]);
-    var handleWidthChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('width', Math.max(0, savedValue - y));
-    }, [handleParameterChange]);
-    var handleHeightChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('height', Math.max(0, savedValue - y));
-    }, [handleParameterChange]);
-    var handleAngleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('angle', savedValue - y);
-    }, [handleParameterChange]);
-    var handleRadiusChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('borderRadius', Math.max(0, savedValue - y));
-    }, [handleParameterChange]);
-    var handleBorderWidthChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('borderWidth', Math.max(0, savedValue - y));
-    }, [handleParameterChange]);
-    var handleBorderStyleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (e) {
-        handleParameterChange('borderStyle', e.target.value);
-    }, [handleParameterChange]);
-    var handleBorderColorChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('borderColor', value);
-    }, [handleParameterChange]);
-    var handleZIndexChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('zIndex', value);
-    }, [handleParameterChange]);
-    var handleBlendModeChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (e) {
-        handleParameterChange('blendMode', e.target.value);
-    }, [handleParameterChange]);
-    var handleTextChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('text', value);
-    }, [handleParameterChange]);
-    var handleFontChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('font', value);
-    }, [handleParameterChange]);
-    var handleFontStyleChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('fontStyle', value);
-    }, [handleParameterChange]);
-    var handleFontSizeChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (_a, e, savedValue) {
-        var x = _a.x, y = _a.y;
-        handleParameterChange('fontSize', Math.max(0, savedValue - y));
-    }, [handleParameterChange]);
-    var handleFontWeightChange = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (value) {
-        handleParameterChange('fontWeight', value);
-    }, [handleParameterChange]);
     var handleRemove = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(function (e) {
         onRemove(index);
     }, [onRemove, index]);
     return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
         react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementOrigin, style: originStyle, onClick: stopPropagation },
-            react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { ref: containerRef, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElement, style: style, onClick: stopPropagation }, state.text),
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { ref: containerRef, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElement, style: style, onClick: stopPropagation },
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { style: textStyle }, state.text)),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", { className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControls },
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, { changeOnEnter: true, resetOnBlur: true, value: state.colour, onChange: handleChangeColour }),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragHandler, { saveValue: state.position, onDrag: handlePositionChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler + " " + _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandlerPosition },
-                    "position ",
-                    state.position[0],
-                    ",",
-                    state.position[1]),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: state.width, onDrag: handleWidthChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
-                    "width ",
-                    state.width),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: state.height, onDrag: handleHeightChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
-                    "height ",
-                    state.height),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: state.angle, onDrag: handleAngleChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
-                    "angle ",
-                    state.angle),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: state.borderWidth, onDrag: handleBorderWidthChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
-                    "border ",
-                    state.borderWidth),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: state.borderRadius, onDrag: handleRadiusChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
-                    "radius ",
-                    state.borderRadius),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("select", { value: state.borderStyle, onChange: handleBorderStyleChange },
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'solid' }, "solid"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'dashed' }, "dashed"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'dotted' }, "dotted"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'double' }, "double"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'hidden' }, "hidden")),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, { changeOnEnter: true, resetOnBlur: true, value: state.borderColor, onChange: handleBorderColorChange }),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterNumberInput, { changeOnEnter: true, resetOnBlur: true, value: state.zIndex || undefined, onChange: handleZIndexChange, placeholder: 'z-index' }),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("select", { value: state.blendMode, onChange: handleBlendModeChange },
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'normal' }, "normal"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'multiply' }, "multiply"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'screen' }, "screen"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'overlay' }, "overlay"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'darken' }, "darken"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'lighten' }, "lighten"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'color-dodge' }, "color-dodge"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'color-burn' }, "color-burn"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'hard-light' }, "hard-light"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'soft-light' }, "soft-light"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'difference' }, "difference"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'exclusion' }, "exclusion"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'hue' }, "hue"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'saturation' }, "saturation"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'color' }, "color"),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement("option", { value: 'luminosity' }, "luminosity")),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, { changeOnEnter: true, resetOnBlur: true, value: state.text, placeholder: 'text', onChange: handleTextChange }),
-                state.text && (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.DivDragWithPointerLock, { saveValue: state.fontSize, onDrag: handleFontSizeChange, className: _styles_css__WEBPACK_IMPORTED_MODULE_1__.default.colourElementControlHandler },
-                        "fontSize ",
-                        state.fontSize),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, { changeOnEnter: true, resetOnBlur: true, value: state.font, placeholder: 'font family', onChange: handleFontChange }),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, { changeOnEnter: true, resetOnBlur: true, value: state.fontStyle, placeholder: 'font style', onChange: handleFontStyleChange }),
-                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(bbuutoonnss__WEBPACK_IMPORTED_MODULE_2__.BlurEnterTextInput, { changeOnEnter: true, resetOnBlur: true, value: state.fontWeight, placeholder: 'font weight', onChange: handleFontWeightChange }))),
-                react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { onClick: handleRemove }, "remove")))));
+                parametersConfig.map(function (_a) {
+                    var type = _a.type, name = _a.name, props = _a.props, visibility = _a.visibility;
+                    var Component = parameterComponentsByType[type];
+                    var isVisible = !visibility || visibility(state);
+                    return isVisible && (react__WEBPACK_IMPORTED_MODULE_0__.createElement(Component, { key: name, value: state[name], props: props, name: name, onChange: handleParameterChange }));
+                }),
+                react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", { onClick: handleRemove }, "delete")))));
 });
 
 
@@ -32090,7 +32242,15 @@ var defaultElementState = {
     fontStyle: '',
     fontSize: 50,
     fontWeight: '',
-    textColour: 'black'
+    textColour: 'black',
+    textPosition: [0, 0],
+    shadowXYOffset: [0, 0],
+    shadowSpread: 0,
+    shadowBlur: 0,
+    shadowColor: 'black',
+    textShadowXYOffset: [0, 0],
+    textShadowBlur: 0,
+    textShadowColor: 'black',
 };
 var ColoursPanel = function (props) {
     var width = props.width, height = props.height;
