@@ -1390,7 +1390,6 @@ function DivDragHandler(props) {
           eventX = _d.x,
           eventY = _d.y;
 
-      console.log(startEvent.current.pageX, onDrag, eventX - startEventX, eventY - startEventY);
       onDrag({
         x: eventX - startEventX,
         y: eventY - startEventY
