@@ -6,4 +6,4 @@
 [aup](https://wrreee.github.io/aup)
 [aup2](https://wrreee.github.io/aup2)
 [colours](https://wrreee.github.io/colours)
-[hover 0.1.1](https://wrreee.github.io/hover010)
+[hover 0.1.2](https://wrreee.github.io/hover010)
