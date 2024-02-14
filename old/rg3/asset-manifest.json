@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rg3/static/css/main.6f99f873.chunk.css",
+    "main.js": "/rg3/static/js/main.762bfbc0.chunk.js",
+    "main.js.map": "/rg3/static/js/main.762bfbc0.chunk.js.map",
+    "runtime-main.js": "/rg3/static/js/runtime-main.4c64651c.js",
+    "runtime-main.js.map": "/rg3/static/js/runtime-main.4c64651c.js.map",
+    "static/js/2.fb3d3cac.chunk.js": "/rg3/static/js/2.fb3d3cac.chunk.js",
+    "static/js/2.fb3d3cac.chunk.js.map": "/rg3/static/js/2.fb3d3cac.chunk.js.map",
+    "index.html": "/rg3/index.html",
+    "static/css/main.6f99f873.chunk.css.map": "/rg3/static/css/main.6f99f873.chunk.css.map",
+    "static/js/2.fb3d3cac.chunk.js.LICENSE.txt": "/rg3/static/js/2.fb3d3cac.chunk.js.LICENSE.txt",
+    "static/media/stepForm.scss": "/rg3/static/media/ttt0000.bcdb80b4.jpg",
+    "static/media/players.scss": "/rg3/static/media/f7.03e62fc5.jpg",
+    "static/media/dishes.scss": "/rg3/static/media/pasta.972a163f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c64651c.js",
+    "static/js/2.fb3d3cac.chunk.js",
+    "static/css/main.6f99f873.chunk.css",
+    "static/js/main.762bfbc0.chunk.js"
+  ]
+}

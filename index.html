@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="manifest" href="js13kpwa.webmanifest" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            touch-action: manipulation;
+            /* background: blue; */
+            width: 100vw;
+            height: 100vh;
+            touch-action: none;
+        }
+
+        body * {
+            touch-action: none;
+        }
+
+        html {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            touch-action: manipulation;
+        }
+
+
+        #main {
+            box-sizing: border-box;
+            /* width: 384px; */
+        }
+
+        #canvases {
+            position: relative;
+            touch-action: none;
+            /* display: none; */
+        }
+
+        #canvases canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #canvases canvas:not(#main) {
+            pointer-events: none;
+        }
+
+        #canvases canvas {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .lock {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(270deg, #daeed0, transparent);
+            background: radial-gradient(#ffb1c3ed, transparent);
+        }
+
+        #menu .content>div {
+            width: 46%;
+            /* border: 1px solid green; */
+            color: rgba(255, 235, 134, 0.0);
+            text-shadow: white 0px 0px 2vw;
+            text-align: center;
+        }
+
+        #menu .content {
+            /* border: 1px solid blue; */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 16vw 22vw 0 0px;
+            box-sizing: border-box;
+           
+        }
+    </style>
+    <title>
+        ><
+    </title>
+</head>
+
+<body>
+
+
+    <div id="canvases">
+    </div>
+
+    <div id="menu">
+    </div>
+
+
+    <div id="video"></div>
+    <div id="enter"></div>
+
+
+    <script src="p5.min.js"></script>
+    <script src="victor.min.js"></script>
+
+    <script src="AnimationLoop.js"></script>
+    <script src="Shader.js"></script>
+    <script src="ShaderMask.js"></script>
+    <script src="ShaderCloud.js"></script>
+    <script src="ShaderEllipse.js"></script>
+
+    <script src="brushes/FromCenter.js"></script>
+    <script src="brushes/Circle.js"></script>
+    <script src="brushes/TreeBrush.js"></script>
+    <script src="brushes/FlowerBrush.js"></script>
+    <script src="brushes/GrasBrush.js"></script>
+    <script src="brushes/VideoBrush.js"></script>
+    <script src="brushes/VideoTreeBrush.js"></script>
+    <script src="brushes/VideoCloudBrush.js"></script>
+    <script src="brushes/LineBrush.js"></script>
+    <script src="brushes/VideoEllipseBrush.js"></script>
+    <script src="brushes/Line2Brush.js"></script>
+
+    <script src="tree/Leaves.js"></script>
+    <script src="tree/Leaves.js"></script>
+    <script src="tree/Branches.js"></script>
+    <script src="tree/Tree.js"></script>
+
+    <script src="Touches.js"></script>
+    <script src="Audio.js"></script>
+    <script src="Video.js"></script>
+    <script src="MenuColor.js"></script>
+    <script src="MenuVideo.js"></script>
+    <script src="Menu.js"></script>
+    <script src="Canvases.js"></script>
+    <script src="Enter.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
